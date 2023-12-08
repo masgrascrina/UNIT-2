@@ -1,0 +1,123 @@
+body {
+   background-image: url(sk.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;}
+.title-word-1 {
+  --color-1: #58B2D9;
+  --color-2: #2f9fcf;
+  --color-3: #257FA6;}
+.title-word-2 {
+  --color-1: #1C5F7C;
+  --color-2: #123F53;
+  --color-3: #091F29;}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}}
+.container {
+  display: grid;
+  place-items: left;  
+  text-align: left;
+  height: 30 vh}
+.title {
+  font-family: "Times new roman", sans-serif;
+  font-weight: 500;
+  font-size: 5 vw;
+  text-transform: uppercase;}
+
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;}
+.title-word-1 {
+  --color-1: #58B2D9;
+  --color-2: #2f9fcf;
+  --color-3: #257FA6;}
+.title-word-2 {
+  --color-1: #ffffff;
+  --color-2:  #e6f5ff;
+  --color-3: #ccebff;}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}}
+.container {
+  display: grid;
+  place-items: left;  
+  text-align: left;
+  height: 30 vh}
+.title {
+  font-family: "Times new roman", sans-serif;
+  font-weight: 500;
+  font-size: 5 vw;
+  text-transform: uppercase;}
+
+
+title-word {
+  animation: color-animation 4s linear infinite;}
+.title-word-1 {
+  --color-1: #58B2D9;
+  --color-2: #2f9fcf;
+  --color-3: #257FA6;}
+.title-word-2 {
+  --color-1: #1C5F7C;
+  --color-2: #123F53;
+  --color-3: #091F29;}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}}
+.container {
+  display: grid;
+  place-items: left;  
+  text-align: left;
+  height: 30 vh}
+.title {
+  font-family: "Times new roman", sans-serif;
+  font-weight: 500;
+  font-size: 5 vw;
+  text-transform: uppercase;}
+
+
+
+#rounded-img{
+border-radius: 30px;
+	    }
+img{    
+    width: 1400px;
+    heiht: 1000px;
+   }
+img {
+  margin-top:1px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 80px;
+  border: 5px solid blue;
+}
+img {
+  opacity: 0.9;
+}
+
+
+
+
